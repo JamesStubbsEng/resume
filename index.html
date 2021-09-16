@@ -32,8 +32,8 @@
         </svg>
         <ul class="list nav__list collapsible__content">
           <li class='nav__item'><a href="#about-me">About Me</a></li>
-          <li class='nav__item'><a href="#skills">Skills</a></li>
           <li class='nav__item'><a href="#freelance-work">Freelance Work</a></li>
+          <li class='nav__item'><a href="#skills">Skills</a></li>
           <li class='nav__item'><a href="#projects">Projects</a></li>
         </ul>
       </nav>
@@ -66,7 +66,7 @@
               <img src="images/me.jpg" alt="James at his computer">
             </div>
             <blockquote class="quote">
-              <p class="quote__text">I am a software engineering graduating top of my class from The University of Waterloo Electrical Computer Engineering in 2017. I have a strong passion for everything software and music! I have worked on many projects in the audio software industry. My roles have included product design engineer, lead software developer, and DSP engineer.
+              <p class="quote__text">I am a software engineer graduating top of my class from The University of Waterloo Electrical Computer Engineering in 2017. I have a strong passion for everything software and music! I have worked on many projects in the audio software industry. My roles have included product design engineer, lead software developer, and DSP engineer.
               </p>
               <footer>
                 <div class="media">
@@ -78,8 +78,66 @@
         </div>
       </div>
     </section>
-    <!-- Skills -->
-    <section id="skills" class="block container block-plans" >
+   
+    <!-- Freelance Work -->
+    <section id="freelance-work" class="block container">
+      <header class="block__header">
+        <h2>Freelance Work</h2>
+        <p>A few recent freelance roles!</p>
+      </header>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+                <use href="images/sprite.svg#easy"></use>
+            </svg>
+        </span>
+        <h3 class="feature__heading">SoundCredit</h3>
+        <p>Lead JUCE developer for SoundCredit's TrackSheet Plus plugin. Used by all major labels and several top indie labels, TrackSheet Plus allows music industry professionals to keep track of their song credits.</p>
+        <a href="https://www.soundcredit.com/" class="link-arrow">Learn More</a>
+        </div>
+        <!-- <picture data-aos="zoom-in-left">
+          <source  type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x">
+          <source  type="image/png" srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x">
+          <img class="feature__image" src="images/easy.jpg" alt="">
+        </picture> -->
+        <img class="feature__image" src="images/tracksheetplus.png" alt="" data-aos="zoom-in-left">
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+                <use href="images/sprite.svg#easy"></use>
+            </svg>
+        </span>
+        <h3 class="feature__heading">Simon Servida</h3>
+        <p>Lead developer, product designer, and product manager for Simon Servida's first plugin Retrograde. Retrograde is a crossplatform audio plugin that allows musicians to quickly apply novel stereo reverse effects.</p>
+        <a href="https://www.simonservida.com/" class="link-arrow">Learn More</a>
+        </div>
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LivMx1Ld9_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+                <use href="images/sprite.svg#easy"></use>
+            </svg>
+        </span>
+        <h3 class="feature__heading">Im a Music Mogul</h3>
+        <p>Lead developer, product designer, and product manager for Im a Music Mogul's 4 plugins: Duckout, Sampld, WAVY, and WIDE</p>
+        <a href="https://imamusicmogul.com/collections/plugins" class="link-arrow">Learn More</a>
+        </div>
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WspTRQzhfwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </article>
+    </section>  
+
+     <!-- Skills -->
+     <section id="skills" class="block container block-plans" >
       <header class="block__header">
         <h2>Skills</h2>
       </header>
@@ -151,62 +209,6 @@
       </div>
       </div>
     </section>
-    <!-- Freelance Work -->
-    <section id="freelance-work" class="block container">
-      <header class="block__header">
-        <h2>Freelance Work</h2>
-        <p>A few recent freelance roles!</p>
-      </header>
-      <article class="grid grid--1x2 feature">
-        <div class="feature__content" data-aos="fade-right">
-          <span class="icon-container">
-            <svg class="icon icon--primary">
-                <use href="images/sprite.svg#easy"></use>
-            </svg>
-        </span>
-        <h3 class="feature__heading">SoundCredit</h3>
-        <p>Lead JUCE developer for SoundCredit's TrackSheet Plus plugin. Used by all major labels and several top indie labels, TrackSheet Plus allows music industry professionals to keep track of their song credits.</p>
-        <a href="https://www.soundcredit.com/" class="link-arrow">Learn More</a>
-        </div>
-        <!-- <picture data-aos="zoom-in-left">
-          <source  type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x">
-          <source  type="image/png" srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x">
-          <img class="feature__image" src="images/easy.jpg" alt="">
-        </picture> -->
-        <img class="feature__image" src="images/tracksheetplus.png" alt="" data-aos="zoom-in-left">
-      </article>
-      <article class="grid grid--1x2 feature">
-        <div class="feature__content">
-          <span class="icon-container">
-            <svg class="icon icon--primary">
-                <use href="images/sprite.svg#easy"></use>
-            </svg>
-        </span>
-        <h3 class="feature__heading">Simon Servida</h3>
-        <p>Lead developer, product designer, and product manager for Simon Servida's first plugin Retrograde. Retrograde in a crossplatform audio plugin that allows musicians to quickly apply novel stereo reverse effects.</p>
-        <a href="https://www.simonservida.com/" class="link-arrow">Learn More</a>
-        </div>
-        <div class="iframe-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/LivMx1Ld9_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-      </article>
-      <article class="grid grid--1x2 feature">
-        <div class="feature__content">
-          <span class="icon-container">
-            <svg class="icon icon--primary">
-                <use href="images/sprite.svg#easy"></use>
-            </svg>
-        </span>
-        <h3 class="feature__heading">Im a Music Mogul</h3>
-        <p>Lead developer, product designer, and product manager for Im a Music Mogul's 4 plugins: Duckout, Sampld, WAVY, and WIDE</p>
-        <a href="https://imamusicmogul.com/collections/plugins" class="link-arrow">Learn More</a>
-        </div>
-        <div class="iframe-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/WspTRQzhfwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </article>
-    </section>  
 
     <!--Projects Github-->
     <div id="projects" class="container" data-aos="fade-up">
