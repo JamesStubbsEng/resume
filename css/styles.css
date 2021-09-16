@@ -515,11 +515,12 @@ a{
 /* Testimonial */
 
 .testimonial{
-    padding: 3rem;
+    padding: 0rem;
 }
 
 .testimonial__image{
-    position: relative
+    position: relative;
+    margin: 0 3rem;
 }
 .testimonial__image > img{
     width: 100%;
@@ -536,6 +537,10 @@ a{
     .testimonial .quote__author{
         font-size: 2.0rem;
     }
+
+    .testimonial__image {
+        margin: 0;
+      }
 
     .testimonial .quote{
         margin-left: 6rem;
@@ -704,9 +709,7 @@ a{
 }
 
 .nav__brand{
-    /* transform: translatey(5px); */
-    width: 30rem;
-    height: 6rem;
+    width: 20rem;
     margin: 2rem 2rem;
 }
 
