@@ -803,6 +803,10 @@ a{
     margin: 12rem 0;
 }
 
+.feature:last-child{
+    margin-bottom: 2rem;
+}
+
 .feature:first-of-type{
     margin-top: 6rem
 }
