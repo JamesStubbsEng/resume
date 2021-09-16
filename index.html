@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Deploy your websites in less than 60 seconds">
+    <meta property="og:title" content="James Stubbs">
+    <meta property="og:description" content="James Stubbs is a software engineer specializing in music software.">
+    <meta property="og:type" content="James Stubbs os:type">
+    <meta property="og:image" content="http://">
+    <meta property="og:url" content="http://jamesstubbseng.com">
+    <title>James Stubbs Eng</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  </head>
+  <body>
+    <!-- navigation -->
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"><img src="images/logo2.svg" alt=""></a>
+        <svg class="icon icon--white nav__toggler">
+          <use href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class='nav__item'><a href="#about-me">About Me</a></li>
+          <li class='nav__item'><a href="#skills">Skills</a></li>
+          <li class='nav__item'><a href="#freelance-work">Freelance Work</a></li>
+          <li class='nav__item'><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero -->
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="hero__content block__header">
+          <h2 class="block__heading" data-aos="fade-right">Software Engineer</h2>
+          <p class="hero__tagline">Specializing in product engineering in the audio software space</p>
+          <a href="#freelance-work" class="btn btn--accent btn--stretched">Freelance Work</a>
+        </header>
+        <!-- <picture data-aos="zoom-in-left">
+          <source  type="image/webp" srcset="images/banner.webp 1x, images/banner@2x.webp 2x">
+          <source  type="image/png" srcset="images/banner.png 1x, images/banner@2x.png 2x">
+          <img class="hero__image" src="images/banner.png" alt="">
+        </picture> -->
+        <img class="hero__image" src="images/banner2.png" alt="" data-aos="zoom-in-left">
+      </div>
+    </section>
+    <!-- About Me -->
+    <section id="about-me"class="block"  data-aos="zoom-in">
+      <header class="block__header">
+        <h2>About Me</h2>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img src="images/me.jpg" alt="A happy, smiling customer">
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">I am a software engineering graduating top of my class from The University of Waterloo Electrical Computer Engineering in 2017. I have a strong passion for everything software and music! I have worked on many projects in the audio software industry. My roles have included product design engineer, lead software developer, and DSP engineer.
+              </p>
+              <footer>
+                <div class="media">
+                  <a href="#" class="btn btn--accent btn--stretched">Resume Download</a>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="block container block-plans" >
+      <header class="block__header">
+        <h2>Skills</h2>
+      </header>
+      <div class="grid grid--1x3" data-aos="fade-up">
+        <div class="plan">
+          <div class="card card--secondary">
+              <header class="card__header">
+                  <h3 class="plan__name">Audio Software</h3>
+                  <span class="plan__price">JUCE</span>
+                  <span>
+                    <img class="skill__logo" src="images/juce.png" alt="">
+                  </span>
+                  
+                  <span class="plan__description">C++ framework for multi-platform audio applications</span>
+              </header>
+              <div class="card__body">
+                  <ul class="list list--tick">
+                      <li class="list__item">UI/UX implementation</li>
+                      <li class="list__item">Audio DSP</li>
+                      <li class="list__item">Full Plugin Lifecycle</li>
+                      <li class="list__item">Anti-Pirating</li>
+                  </ul>
+                  <a href="https://juce.com/" class="btn btn--outline btn--block">Checkout JUCE</a>
+              </div>
+          </div>
+      </div>
+        <div class="plan">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">DSP Engineering</h3>
+              <span class="plan__price">RetroDigital</span>
+              <span>
+                <img class="skill__logo" src="images/retrodigital_logo_cropped.png" alt="">
+              </span>
+              
+              <span class="plan__description">Efficient C++ audio library for recreating late 80s digital processing</span>
+          </header>
+          <div class="card__body">
+              <ul class="list list--tick">
+                  <li class="list__item">Latency defined pitch shifting</li>
+                  <li class="list__item">Realtime audio slowdown</li>
+                  <li class="list__item">Downsampling effect</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Checkout RetroDigital</button>
+          </div>
+          </div>
+      </div>
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Web Software</h3>
+              <span class="plan__price">Full Stack</span>
+              <span>
+                <img class="skill__logo" src="images/mern_logo.png" alt="">
+              </span>
+              
+              <span class="plan__description">Game and productivity tools using MERN stack</span>
+          </header>
+          <div class="card__body">
+              <ul class="list list--tick">
+                  <li class="list__item">Vanilla Javascript game</li>
+                  <li class="list__item">Score Board backend</li>
+                  <li class="list__item">Anti-cheat protection</li>
+                  <li class="list__item">Todo-Productivity Webapp</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Checkout Game</button>
+          </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <!-- Freelance Work -->
+    <section id="freelance-work" class="block container">
+      <header class="block__header">
+        <h2>Freelance Work</h2>
+        <p>A few recent freelance roles!</p>
+      </header>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+                <use href="images/sprite.svg#easy"></use>
+            </svg>
+        </span>
+        <h3 class="feature__heading">SoundCredit</h3>
+        <p>Lead JUCE developer for SoundCredit's TrackSheet Plus plugin. Used by all major labels and several top indie labels, TrackSheet Plus allows music industry professionals to keep track of their song credits.</p>
+        <a href="https://www.soundcredit.com/" class="link-arrow">Learn More</a>
+        </div>
+        <!-- <picture data-aos="zoom-in-left">
+          <source  type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x">
+          <source  type="image/png" srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x">
+          <img class="feature__image" src="images/easy.jpg" alt="">
+        </picture> -->
+        <img class="feature__image" src="images/tracksheetplus.png" alt="" data-aos="zoom-in-left">
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+                <use href="images/sprite.svg#easy"></use>
+            </svg>
+        </span>
+        <h3 class="feature__heading">Simon Servida</h3>
+        <p>Lead developer, product designer, and product manager for Simon Servida's first plugin Retrograde. Retrograde in a crossplatform audio plugin that allows musicians to quickly apply novel stereo reverse effects.</p>
+        <a href="https://www.simonservida.com/" class="link-arrow">Learn More</a>
+        </div>
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LivMx1Ld9_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+                <use href="images/sprite.svg#easy"></use>
+            </svg>
+        </span>
+        <h3 class="feature__heading">Im a Music Mogul</h3>
+        <p>Lead developer, product designer, and product manager for Im a Music Mogul's 4 plugins: Duckout, Sampld, WAVY, and WIDE</p>
+        <a href="https://imamusicmogul.com/collections/plugins" class="link-arrow">Learn More</a>
+        </div>
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WspTRQzhfwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </article>
+    </section>  
+
+    <!--Projects Github-->
+    <div id="projects" class="container" data-aos="fade-up">
+      <div class="callout callout--primary callout-signup">
+        <div class="grid grid--1x2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Projects</h2>
+            <p>
+              Checkout my non-freelancing projects on my GitHub!
+            </p>
+          </div>
+          <a
+            target="_blank"
+            href="https://github.com/JamesStubbsEng"
+            class="btn btn--secondary btn--stretched"
+            >Go To GitHub</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <div class="footer__brand">
+          <img src="images/logo2.svg" alt="">
+          <p class="footer__copyright">Copyright 2021 James Stubbs</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

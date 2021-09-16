@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="209" height="54" viewBox="0 0 209 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2584ff;
+        stroke: #2584ff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 10px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ff3400;
+        stroke: #ff3400;
+        mix-blend-mode: lighten;
+      }
+
+      .cls-3 {
+        font-size: 32.498px;
+        fill: #fff;
+        font-family: Inter;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <!-- <path id="Polygon_1_copy_2" data-name="Polygon 1 copy 2" class="cls-1" d="M43.851,29.7L24.244,39.2,32.037,14.02Z"/>
+  <path id="Polygon_1_copy_2-2" data-name="Polygon 1 copy 2" class="cls-2" d="M37.033,29.7L56.64,39.2,48.847,14.02Z"/> -->
+  <path class="st0" d="M 559.158 71.136 L 559.158 89.985 C 559.158 91.367 560.391 92.498 561.898 92.498 L 592.039 92.498 C 593.546 92.498 594.779 91.367 594.779 89.985 L 594.779 71.136 C 594.779 69.754 593.546 68.623 592.039 68.623 L 561.898 68.623 C 560.391 68.623 559.158 69.754 559.158 71.136 Z" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-width: 2px; fill: rgb(85, 160, 218); fill-rule: nonzero; stroke: rgb(255, 255, 255);"/>
+  <line class="st0" x1="559.158" y1="87.471" x2="594.779" y2="87.471" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-width: 2px; fill: rgb(85, 160, 218); fill-rule: nonzero; stroke: rgb(255, 255, 255);"/>
+  <line class="st0" x1="567.378" y1="100.037" x2="586.559" y2="100.037" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-width: 2px; fill-rule: nonzero; fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255);"/>
+  <path class="st0" d="M 572.858 92.498 C 572.858 95.136 571.899 98.278 570.392 100.037" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-width: 2px; fill: rgb(85, 160, 218); fill-rule: nonzero; stroke: rgb(255, 255, 255);"/>
+  <path class="st0" d="M 583.545 100.037 C 582.038 98.278 581.079 95.136 581.079 92.498" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-width: 2px; fill-rule: nonzero; fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255);"/>
+  <polyline class="st0" points="564.638 74.906 568.748 78.675 564.638 82.445" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-width: 2px; fill: rgb(85, 160, 218); fill-rule: nonzero; stroke: rgb(255, 255, 255);"/>
+  <line class="st0" x1="572.858" y1="82.445" x2="578.339" y2="82.445" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-width: 2px; fill: rgb(85, 160, 218); fill-rule: nonzero; stroke: rgb(255, 255, 255);"/>
+  <text id="James Stubbs" class="cls-3" transform="translate(71.466 35.437) scale(0.923)">James Stubbs</text>
+</svg>
