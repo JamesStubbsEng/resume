@@ -347,46 +347,46 @@ a{
     background: #02cdf1;
 }
 
-/* plans */
+/* skillss */
 
-.plan{
+.skills{
     transition: transform .2s ease-out;
 }
 
-.plan__name{
+.skills__name{
     color: white;
     margin: 0;
     font-weight: 500;
     font-size: 2.4rem;
 }
 
-.plan__price{
+.skills__price{
     font-size: 4rem;
 
 }
 
-.plan__billing-cycle{
+.skills__billing-cycle{
     font-size: 2.4rem;
     font-weight: 300;
     opacity: 0.8;
     margin-right: 1rem;
 }
 
-.plan__description{
+.skills__description{
     font-size: 1.6rem;
     font-weight: 300;
     letter-spacing: 1px;
     display: block;
 }
 
-.plan .list__item{
+.skills .list__item{
     margin-bottom: 2rem;
 }
 
-.plan--popular .card__header{
+.skills--popular .card__header{
     position: relative;
 }
-.plan--popular .card__header::before{
+.skills--popular .card__header::before{
     content: url(../images/popular.svg);
     width: 40px;
     display: inline-block;
@@ -395,11 +395,11 @@ a{
     right: 5%;
 }
 
-.plan:hover{
+.skills:hover{
     transform: scale(1.05);
 }
 
-.plan--popular:hover{
+.skills--popular:hover{
     transform: scale(1.15);
 }
 
@@ -408,20 +408,20 @@ a{
 }
 
 @media screen and (min-width: 1024px) {
-    .plan__name{
+    .skills__name{
         font-size: 1.4rem;
     }
     
-    .plan__price{
+    .skills__price{
         font-size: 3rem;
     
     }
     
-    .plan__billing-cycle{
+    .skills__billing-cycle{
         font-size: 1.6rem;
     }
 
-    .plan--popular{
+    .skills--popular{
         transform: scale(1.1);
     }
 }
@@ -515,37 +515,37 @@ a{
     }
 }
 
-/* Testimonial */
+/* about */
 
-.testimonial{
+.about{
     padding: 0rem;
 }
 
-.testimonial__image{
+.about__image{
     position: relative;
     margin: 0 3rem;
 }
-.testimonial__image > img{
+.about__image > img{
     width: 100%;
 }
 
-.testimonial__image > .icon-container{
+.about__image > .icon-container{
     position: absolute;
     top: 3rem;
     right: -32px;
 }
 
 @media screen and (min-width: 768px){
-    .testimonial .quote,
-    .testimonial .quote__author{
+    .about .quote,
+    .about .quote__author{
         font-size: 2.0rem;
     }
 
-    .testimonial__image {
+    .about__image {
         margin: 0;
       }
 
-    .testimonial .quote{
+    .about .quote{
         margin-left: 6rem;
     }
 }
@@ -785,42 +785,42 @@ a{
     }
 }
 
-/* Plans Block*/
+/* skillss Block*/
 
-.block-plans .grid{
+.block-skillss .grid{
     gap: 8rem 4rem;
 }
 
-.block-plans .card{
+.block-skillss .card{
     max-width: 500px;
     margin: 0 auto;
 }
 
-/* Features */
+/* works */
 
-.feature{
+.work{
     gap: 4rem 5rem;
     margin: 12rem 0;
 }
 
-.feature:last-child{
+.work:last-child{
     margin-bottom: 2rem;
 }
 
-.feature:first-of-type{
+.work:first-of-type{
     margin-top: 6rem
 }
 
-.feature__headings{
+.work__headings{
     margin: 1rem 0;
 }
 
-.feature__image{
+.work__image{
     width: 100%;
 }
 
 @media screen and (min-width: 768px){
-    .feature:nth-of-type(even) .feature__content{
+    .work:nth-of-type(even) .work__content{
         order: 2;
     }
 }
